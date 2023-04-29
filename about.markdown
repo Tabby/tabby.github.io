@@ -19,3 +19,5 @@ cool enough to want to write about, and most importantly where I can do so authe
 
 Mostly it'll be things about coding, living with ADHD, queerness, and so on as those
 are the things I know about and think about the most, but there may be other things too.
+
+You can find me on the Fediverse at [@Liophora@furry.engineer](https://furry.engineer/@Liophora)
