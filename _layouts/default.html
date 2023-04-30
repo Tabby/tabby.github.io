@@ -3,6 +3,7 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' cdn.transcend.io *.gofundme.com">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="shortcut icon" type="image/png" href="{{ '/assets/images/favicon_512.png' | prepend: site.baseurl }}" sizes="512x512">
@@ -38,17 +39,17 @@
     </div>
   </body>
   <footer>
-    <hr style="margin-top: 80px; margin-bottom: 50px;" />
+    <hr class="footer" />
     <div class="container">
-      <div class="grid-container" style="grid-template-columns: 1fr 1fr;">
-        <div class="grid-child" style="vertical-align: middle;">
+      <div class="grid-container">
+        <div class="grid-child">
           <p>
             I'm currently trying to raise money for my gender confirmation surgery later this year. I would be incredibly
             grateful if you're able to give even a small amount to help out 💜
           </p>
         </div>
         <div class="grid-child">
-          <div style="margin: auto;">
+          <div class="grid-content-padding">
             <div class="gfm-embed" data-url="https://www.gofundme.com/f/help-tabby-get-gender-confirmation-surgery/widget/medium" />
             <script defer src="https://www.gofundme.com/static/js/embed.js"></script>
           </div>

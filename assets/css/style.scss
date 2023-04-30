@@ -8,8 +8,18 @@
   display: grid;
   gap: 40px;
   justify-content: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-content-padding {
+  margin: auto;
 }
 
 .post-metadata {
   font-size: small;
+}
+
+hr.footer {
+  margin-top: 80px;
+  margin-bottom: 50px;
 }
